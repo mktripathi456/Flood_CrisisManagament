@@ -1,32 +1,21 @@
-# EarthQuake_CrisisManagament
-GUI Software consisting of earth quake prediction and disaster management
+# Flood_CrisisManagament
+GUI Software consisting of flood prediction and disaster management
 This project will consist of following parts:-  
-i)  Earth Prediction using machine learning or AI based models.
-ii) development  of appropriate disaster management strategy based on the collected data from disasters in the past
+i)  Flood prediction using machine learning or AI based models.
+ii) Development  of appropriate disaster management strategy based on the collected data from disasters in the past. (Text mining and sentiment analysis of tweets)
 
-## Earthquake Prediction
+## Flood Prediction
 
-Earth Quake:- Sudden  movement  of  the  earth‟s  crust,  causing  destruction  due  to  violent  activities caused  due  to  volcanic  action  underneath  the  surface  of  the  earth. 
+Flood:- It is an overflow of water that submerges land that is usually dry. In the sense of "flowing water", the word may also be applied to the inflow of the tide. Floods are an area of study of the discipline hydrology and are of significant concern in agriculture, civil engineering and public health.
 
-The dataset will be analyzed and fed into machine learning algorithms to predict the occurence of earth quake based on many factors like geographical location, time-frames of previous occurrences.
+The dataset will be analyzed and fed into machine learning algorithms to predict the occurence of flood based on many factors like precipitation, time-frames of previous occurrences.
 
 Salient feature:-
-1. Predict  earthquake  based  on  time  series  data.
-2. Predict magnitude of earthquake using RNN
-3. Building a data  warehouse for  earthquakes occurences in the form of graphs for better decision making. This will also help in disaster Management module
 
-Here we will be using Tensorflow based model to build Reccurent Nueral Network for prediction in a given time frame.
-This model is also better because it also takes help of previous occurance timeline to predict for the future events making it fit even for after-shock prediction.
 
 ## Disaster Management System
-In this we also will be implementing GUI framework to deal with Disaster  Management  Strategies:     
+     
+This module will consist of using text mining and sentiment analysis of tweets related to floods. The textual content of social media reflects people's sentiments. Sentiment analysis is a technique in text classification aimed to categorize texts based on conveyed opinions like positive, negative or neutral. This technique would enable us to understand the pros and cons of the current disaster management system and how it can be improved to reduce the loss caused by such disasters. It also shows the involvement of authority in successfully tackling the disaster.
 
-The aim of disaster management System will be:-
-1. Minimize casualties
-2. Rescue victims on time
-3. Offer first aid instantly
-4. Locate and Evacuate people to safe places
-5. A temporal analysis of peoples need after the earthquake from blogs and social media using text mining and semantic analysis techinques.
-
-Natural  disasters like earthquake claim numerous lives and cause significant damage to property. There have been many efforts to predict 
+Natural  disasters like flood claim numerous lives and cause significant damage to property. There have been many efforts to predict 
 the disasters based on various sources of data. Social Media and Internet  have also been helpful important source  of information in prediction of the disasters and they have contributed significantly to early detection and adoption for effective disaster management. 
