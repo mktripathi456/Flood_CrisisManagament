@@ -11,6 +11,8 @@ Flood:- It is an overflow of water that submerges land that is usually dry. In t
 The dataset will be analyzed and fed into machine learning algorithms to predict the occurence of flood based on many factors like precipitation, time-frames of previous occurrences.
 
 Salient feature:-
+1. Prediction of next month rainfall using RNN with 12 timesteps.
+2. Logistic Regression to predict flood from rainfall value. 
 
 
 ## Disaster Management System
