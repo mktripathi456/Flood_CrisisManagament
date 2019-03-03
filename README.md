@@ -1,19 +1,17 @@
 # Flood_CrisisManagament
-GUI Software consisting of flood prediction and disaster management
-This project will consist of following parts:-  
-i)  Flood prediction using machine learning or AI based models.
-ii) Development  of appropriate disaster management strategy based on the collected data from disasters in the past. (Text mining and sentiment analysis of tweets)
+AI pipeline for flood prediction and disaster management
+This project consists of following parts:-  
+i)  Flood prediction using AI Pipeline consisting of RNN model with logistic regression.
+ii) Development of appropriate disaster management strategy by making data analysis based on the collected data from disasters in the past. (Text mining and sentiment analysis of tweets)
 
 ## Flood Prediction
-
 Flood:- It is an overflow of water that submerges land that is usually dry. In the sense of "flowing water", the word may also be applied to the inflow of the tide. Floods are an area of study of the discipline hydrology and are of significant concern in agriculture, civil engineering and public health.
 
-The dataset will be analyzed and fed into machine learning algorithms to predict the occurence of flood based on many factors like precipitation, time-frames of previous occurrences.
+The dataset will be analyzed and fed into AI Pipeline to predict the occurence of flood based on many factors like precipitation, time-frames of previous occurrences.
 
 Salient feature:-
 1. Prediction of next month rainfall using RNN with 12 timesteps.
 2. Logistic Regression to predict flood from rainfall value. 
-
 
 ## Disaster Management System
      
